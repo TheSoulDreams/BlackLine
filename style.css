@@ -49,7 +49,7 @@ main {
 .mod-section:hover {
   border-color: #fff; 
   background-color: #1d1d1d;
-  border: 5px solid #fff;
+  border: 30px solid #fff;
 }
 
 .mod-section h2 {
