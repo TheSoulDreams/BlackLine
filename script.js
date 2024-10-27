@@ -20,7 +20,7 @@ document.addEventListener('DOMContentLoaded', function() {
     draw() {
       ctx.beginPath();
       ctx.arc(this.x, this.y, this.radius, 0, Math.PI * 2, false);
-      ctx.fillStyle = 'grey';
+      ctx.fillStyle = 'black';
       ctx.fill();
       ctx.closePath();
     }
@@ -44,7 +44,7 @@ document.addEventListener('DOMContentLoaded', function() {
       ctx.beginPath();
       ctx.moveTo(this.x, this.y);
       ctx.lineTo(dot.x, dot.y);
-      ctx.strokeStyle = 'black';
+      ctx.strokeStyle = 'grey';
       ctx.stroke();
       ctx.closePath();
     }
