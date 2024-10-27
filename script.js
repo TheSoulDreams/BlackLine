@@ -19,7 +19,7 @@ document.addEventListener('DOMContentLoaded', function() {
 
     draw() {
       ctx.beginPath();
-      ctx.arc(this.x, this.y, this.radius, 0, Math.PI * 2, false);
+      ctx.arc(this.x, this.y, this.radius, 0, Math.PI * 3, false);
       ctx.fillStyle = 'white';
       ctx.fill();
       ctx.closePath();
@@ -56,8 +56,8 @@ document.addEventListener('DOMContentLoaded', function() {
 
     for (let i = 0; i < 50; i++) {
       const radius = 3;
-      const x = Math.random() * (canvas.width - radius * 2) + radius;
-      const y = Math.random() * (canvas.height - radius * 2) + radius;
+      const x = Math.random() * (canvas.width - radius * 3) + radius;
+      const y = Math.random() * (canvas.height - radius * 3) + radius;
       const speed = 1;
 
       dots.push(new Dot(x, y, radius, speed));
