@@ -44,7 +44,7 @@ document.addEventListener('DOMContentLoaded', function() {
       ctx.beginPath();
       ctx.moveTo(this.x, this.y);
       ctx.lineTo(dot.x, dot.y);
-      ctx.strokeStyle = 'grey';
+      ctx.strokeStyle = 'black';
       ctx.stroke();
       ctx.closePath();
     }
